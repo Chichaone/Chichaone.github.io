@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: grid;
+  justify-items: center;
+}
+
+.card {
+  margin-top: 50px;
+  height: 18em;
+}
+
+.btn {
+  margin-top: 8px;
+}
+
+.textarea {
+  margin-top: 20px;
+  width: 20rem;
+}

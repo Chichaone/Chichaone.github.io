@@ -1,0 +1,35 @@
+.decr, .encr{
+    display: inline-flex;
+    margin-top: 50px;
+    /*width: 40rem;*/
+}
+
+.text, .file {
+    width: 30rem;
+    margin-inline: 4em;
+}
+
+.max-w-xs {
+    max-width: 50rem;
+}
+
+.textarea {
+    margin-top: 20px;
+    width: 30rem;
+}
+
+.label-text {
+    font-size: 0.975rem;
+    line-height: 1.25rem;
+    --tw-text-opacity: 1;
+    color: var(--fallback-bc, oklch(var(--bc) / var(--tw-text-opacity)));
+}
+
+.input, .file-input {
+    margin-top: 20px;
+}
+
+.btn-secondary, .btn-primary {
+    margin-top: 20px;
+    color: white;
+}
